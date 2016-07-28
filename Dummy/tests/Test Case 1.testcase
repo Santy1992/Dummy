@@ -1,2 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testCase>
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="1" title="Do Action">
+      <arguments>
+        <argument id="locator"/>
+        <argument id="interaction">
+          <value class="uiInteraction"/>
+        </argument>
+        <argument id="interactionDescription">
+          <value class="value" valueClass="string">Do Action</value>
+        </argument>
+        <argument id="wait"/>
+        <argument id="captureBefore">
+          <value class="value" valueClass="string">false</value>
+        </argument>
+        <argument id="captureAfter">
+          <value class="value" valueClass="string">false</value>
+        </argument>
+      </arguments>
+    </apiCall>
+  </steps>
 </testCase>
